@@ -2,7 +2,7 @@
 #
 # Regards, the Alveare Solutions #!/Society -x
 #
-# Fire!! Fly! (Cargo)
+# Fire! Fly!! (Cargo)
 
 __author__ = 'Alveare Solutions'
 __version__ = '1.0'
@@ -12,20 +12,13 @@ import time
 import optparse
 import os
 import json
-import crypt
-import threading
 import pysnooper
-import random
-import subprocess
 import RPi.GPIO as GPIO
 
 from backpack.bp_log import log_init
-from backpack.bp_ensurance import ensure_files_exist,ensure_directories_exist
+from backpack.bp_ensurance import ensure_directories_exist
 from backpack.bp_shell import shell_cmd
-from backpack.bp_checkers import check_file_exists, check_superuser
-from backpack.bp_threads import threadify
-from backpack.bp_convertors import file2list
-from backpack.bp_general import stdout_msg, clear_screen, write2file
+from backpack.bp_general import stdout_msg, clear_screen
 from backpack.bp_filters import filter_file_name_from_path, filter_directory_from_path
 from backpack.spl_writer import SPLWriter
 from backpack.spl_reader import SPLReader

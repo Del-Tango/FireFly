@@ -47,6 +47,7 @@ done
 
 function init_firefly () {
     if [ ${#@} -gt 0 ]; then
+        # [ NOTE ]: Mock a MachineDialogue Lock(n)Load
         declare -A MD_DEFAULT
         declare -A MD_CARGO
         for setting_key in ${!FF_DEFAULT[@]}; do
