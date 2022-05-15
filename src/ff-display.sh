@@ -4,6 +4,74 @@
 #
 # DISPLAY
 
+function display_available_plumbing_signals() {
+    cat <<EOF
+
+    * Change default solid color
+
+        SPLT:color@white;
+        SPLT:color@black;
+        SPLT:color@red;
+        SPLT:color@green;
+        SPLT:color@blue;
+
+    * Firefly power controlls
+
+        SPLT:power@on;
+        SPLT:power@off;
+
+    * Reset blink message queue to default solid color
+
+        SPLT:reset;
+
+    * Issue blink message instructions via CSV action lists
+
+        SPLT:white@3;
+        SPLT:black@4,red@1;
+        SPLT:white@3,green@3,blue@1;
+
+[ NOTE ]: Multiple actions can form a low level SPL instruction if given as a
+          CSV string terminated by a semi-colon (;). Multiple instructions can
+          be chained together in order using only the SPL EOL character (;).
+
+EOF
+}
+
+function display_available_porcelain_signals() {
+    cat <<EOF
+
+    * Change default solid color
+
+        set-color:white
+        set-color:black
+        set-color:red
+        set-color:green
+        set-color:blue
+
+    * Firefly power controlls
+
+        set-power:on
+        set-power:off
+
+    * Reset blink message queue to default solid color
+
+        reset
+
+    * Issue blink message instructions via CSV action lists
+
+        blink-white:3
+        blink-black:4,blink-red:1
+        blink-white:3,blink-green:3,blink-blue:1
+
+[ NOTE ]: Multiple actions form an instruction that takes the form of a CSV
+          string. Blink actions will be processed by the LAMP controller as a
+          single semaphore message.
+
+EOF
+}
+
+
+
 function display_usage () {
     clear; display_header; local FILE_NAME="./`basename $0`"
     cat<<EOF

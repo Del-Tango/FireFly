@@ -4,6 +4,17 @@
 #
 # FORMATTERS
 
+function format_low_level_serial_signal_cargo_arguments() {
+    local SIGNAL="$@"
+    local ARGUMENTS=(
+        `format_floodgate_cargo_constant_args`
+        "--action low-lvl-signal"
+        "--signal ${SIGNAL}"
+    )
+    echo -n "${ARGUMENTS[@]}"
+    return $?
+}
+
 function format_serial_signal_cargo_arguments() {
     local SIGNAL="$@"
     local ARGUMENTS=(

@@ -64,7 +64,8 @@ SPL_READER = SPLReader(FF_DEFAULT['serial-port'])
 # Cold Parameters
 
 FF_PORCELAIN_CMDS = [
-    'blink-white', 'blink-black', 'blink-red', 'blink-green', 'blink-blue'
+    'blink-white', 'blink-black', 'blink-red', 'blink-green', 'blink-blue',
+    'set-color', 'power', 'reset'
 ]
 log = log_init(
     '/'.join([FF_DEFAULT['log-dir'], FF_DEFAULT['log-file']]),
@@ -102,7 +103,8 @@ def check_preconditions():
 
 # ACTIONS
 
-def action_low_level_serial_signal():
+def action_low_level_serial_signal(*args, **kwargs):
+    # [ NOTE ]: Fluffier instructions than high level signals but less computations
     log.debug('')
     serial_write = SPL_WRITER.write(FF_SIGNAL_CSV)
     if serial_write is False:
@@ -113,16 +115,24 @@ def action_low_level_serial_signal():
         return 1
     return process_serial_signal_response()
 
-def action_serial_signal():
+#@pysnooper.snoop()
+def action_serial_signal(*args, **kwargs):
     log.debug('')
-    spl_instructions = []
+    spl_instructions, fragments = [], []
     for action in FF_SIGNAL_CSV.split(','):
         fragments = action.split(':')
-        if len(fragments) != 2 or fragments[0] not in FF_PORCELAIN_CMDS:
-            stdout_msg('[ WARNING ]: Invalid action! ()'.format(action))
+        if not fragments or len(fragments) != 2 or fragments[0] not in FF_PORCELAIN_CMDS:
+            stdout_msg('[ WARNING ]: Invalid action! ({})'.format(action))
             continue
-        spl_action = fragments[0].split('-')[1] + '@' + fragments[1]
-        new_spl_instruction = '{}:{};'.format(FF_DEFAULT['spl-prefix'], spl_action)
+        if len(fragments) == 2 and fragments[0].split('-')[0] in ['blink', 'set']:
+            spl_action = fragments[0].split('-')[1] + '@' + fragments[1]
+            new_spl_instruction = '{}:{};'.format(FF_DEFAULT['spl-prefix'], spl_action)
+        elif len(fragments) == 2 and fragments[0] == 'reset':
+            spl_action = fragments[0]
+            new_spl_instruction = '{}:{};'.format(FF_DEFAULT['spl-prefix'], spl_action)
+        else:
+            stdout_msg("[ WARNING ]: Invalid action! ({})".format(action))
+            continue
         spl_instructions.append(new_spl_instruction)
     serial_write = SPL_WRITER.write(''.join(spl_instructions))
     if serial_write is False:
@@ -135,14 +145,16 @@ def action_serial_signal():
 
 def process_serial_signal_response():
     log.debug('')
+    exit_code = 1
+    stdout_msg('[ INFO ]: Waiting for response from LAMP controller...')
     expected_answers = {
         'OK': '{}:{};'.format(FF_DEFAULT['spl-prefix'], FF_DEFAULT['spl-ack-sig']),
         'NOK': '{}:{};'.format(FF_DEFAULT['spl-prefix'], FF_DEFAULT['spl-err-sig']),
     }
     for item in range(int(FF_DEFAULT['serial-reads'])):
         serial_read = SPL_READER.read()
-        if exepected_answers['OK'] not in serial_read \
-                and exepected_answers['NOK'] not in serial_read:
+        if not serial_read or (expected_answers['OK'] not in serial_read \
+                and expected_answers['NOK'] not in serial_read):
             time.sleep(FF_DEFAULT['serial-interval'])
             continue
         elif expected_answers['NOK'] in serial_read:
@@ -337,7 +349,7 @@ def process_command_line_options(parser):
         'config_file': process_config_file_argument(parser, options),
         'log_file': process_log_file_argument(parser, options),
         'action_csv': process_action_csv_argument(parser, options),
-        'signal_csv': process_gate_csv_argument(parser, options),
+        'signal_csv': process_signal_csv_argument(parser, options),
         'debug_flag': process_debug_mode_argument(parser, options),
     }
     return processed

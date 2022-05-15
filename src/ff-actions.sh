@@ -5,7 +5,8 @@
 # ACTIONS
 
 function action_plumbing_signal() {
-    echo; info_msg "Issue plumbing signal to (${BLUE}${SCRIPT_NAME}${RESET}) LAMP controller -"
+    echo; info_msg "Issue plumbing signal to (${BLUE}${SCRIPT_NAME}${RESET}) LAMP controller or (${MAGENTA}.back${RESET})-"
+    display_available_plumbing_signals
     local SIGNAL=`fetch_string_from_user 'LAMP-CTRL'`
     if [ $? -ne 0 ] || [ -z "$SIGNAL" ]; then
         echo; info_msg 'Aborting action.'
@@ -33,12 +34,13 @@ function action_plumbing_signal() {
 function action_firefly_cargo() {
     local ARGUMENTS=( $@ )
     trap 'trap - SIGINT; echo ''[ SIGINT ]: Aborting action.''; return 0' SIGINT
-    echo; ${FF_CARGO['firefly']} ${ARGUMENTS[@]}; trap - SIGINT
-    return $?
+    echo; ${FF_CARGO['firefly']} ${ARGUMENTS[@]}; local EXIT_CODE=$?; trap - SIGINT
+    return $EXIT_CODE
 }
 
 function action_porcelain_signal() {
-    echo; info_msg "Issue porcelain signal to (${BLUE}${SCRIPT_NAME}${RESET}) LAMP controller -"
+    echo; info_msg "Issue porcelain signal to (${BLUE}${SCRIPT_NAME}${RESET}) LAMP controller or (${MAGENTA}.back${RESET}) -"
+    display_available_porcelain_signals
     local SIGNAL=`fetch_string_from_user 'LAMP-CTRL'`
     if [ $? -ne 0 ] || [ -z "$SIGNAL" ]; then
         echo; info_msg 'Aborting action.'

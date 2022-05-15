@@ -2,6 +2,7 @@
 #
 # Regards, the Alveare Solutions #!/Society -x
 #
+# FIREFLY DOX
 
 cat <<EOF
 ________________________________________________________________________________
@@ -36,8 +37,7 @@ _________________________________________________________v1.0Semaphore__________
      12VDC 3A                        |________|___________________________|
       Power
 
-
-[ EXAMPLES ]: Serial instruction sets for Arduino_______________________________
+[ EXAMPLES ]: Low level (plumbing) serial instruction sets for Arduino__________
 
     # Change default solid color
 
@@ -61,5 +61,30 @@ _________________________________________________________v1.0Semaphore__________
         SPLT:white@3;
         SPLT:black@4,red@1;
         SPLT:white@3,green@3,blue@1;
+
+[ EXAMPLES ]: High level (porcelain) serial instruction sets for cargo script___
+
+    # Change default solid color
+
+        set-color:white
+        set-color:black
+        set-color:red
+        set-color:green
+        set-color:blue
+
+    # Firefly power controlls
+
+        set-power:on
+        set-power:off
+
+    # Reset blink message queue to default solid color
+
+        reset
+
+    # Issue blink message instructions via CSV action lists
+
+        blink-white:3
+        blink-black:4,blink-red:1
+        blink-white:3,blink-green:3,blink-blue:1
 
 EOF
