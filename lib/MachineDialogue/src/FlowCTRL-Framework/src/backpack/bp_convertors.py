@@ -1,10 +1,14 @@
+#!/usr/bin/python3
+#
+# Regards, the Alveare Solutions #!/Society -x
+#
+# CONVERTORS
+
 import json
 import logging
 import os
 
-log = logging.getLogger('FlowCTRL')
-
-# CONVERTORS
+log = logging.getLogger('')
 
 
 def json2dict(file_path):
@@ -16,6 +20,7 @@ def json2dict(file_path):
     log.debug('Converted JSON: ({})'.format(converted))
     return converted
 
+
 def dict2json(dict_obj):
     if not dict_obj:
         log.warning('No data to convert! ({})'.format(dict_obj))
@@ -23,6 +28,7 @@ def dict2json(dict_obj):
     converted = json.dumps(dict_obj, indent=4)
     log.debug('Converted JSON: ({})'.format(converted))
     return converted
+
 
 def file2list(file_path):
     if not file_path or not os.path.exists(file_path):

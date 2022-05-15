@@ -584,3 +584,225 @@ Thu Jun 17 21:47:08 EEST 2021
 [35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
 [35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
 [35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-port - /dev/serial0[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-prefix - SPLT[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
+[35mSat May 14 09:11:31 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-port - /dev/serial0[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-prefix - SPLT[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
+[35mSat May 14 09:32:18 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-port - /dev/serial0[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-prefix - SPLT[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
+[35mSat May 14 09:50:05 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-port - /dev/serial0[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-prefix - SPLT[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
+[35mSat May 14 09:59:24 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-port - /dev/serial0[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-prefix - SPLT[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
+[35mSat May 14 09:59:51 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-port - /dev/serial0[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-prefix - SPLT[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
+[35mSat May 14 10:00:07 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-port - /dev/serial0[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-prefix - SPLT[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
+[35mSat May 14 10:02:10 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-port - /dev/serial0[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-prefix - SPLT[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
+[35mSat May 14 10:04:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-port - /dev/serial0[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-prefix - SPLT[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
+[35mSat May 14 10:06:16 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-port - /dev/serial0[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-prefix - SPLT[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
+[35mSat May 14 10:07:41 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).

@@ -65,7 +65,7 @@ SPL_READER = SPLReader(FF_DEFAULT['serial-port'])
 
 FF_PORCELAIN_CMDS = [
     'blink-white', 'blink-black', 'blink-red', 'blink-green', 'blink-blue',
-    'set-color', 'power', 'reset'
+    'set-color', 'set-power', 'reset'
 ]
 log = log_init(
     '/'.join([FF_DEFAULT['log-dir'], FF_DEFAULT['log-file']]),
@@ -143,6 +143,12 @@ def action_serial_signal(*args, **kwargs):
         return 1
     return process_serial_signal_response()
 
+def action_help():
+    log.debug('')
+    exit(display_usage())
+
+# GENERAL
+
 def process_serial_signal_response():
     log.debug('')
     exit_code = 1
@@ -153,7 +159,10 @@ def process_serial_signal_response():
     }
     for item in range(int(FF_DEFAULT['serial-reads'])):
         serial_read = SPL_READER.read()
-        if not serial_read or (expected_answers['OK'] not in serial_read \
+        if item == FF_DEFAULT['serial-reads']:
+            stdout_msg('[ NOK ]: Timed out waiting for response from LAMP controller!')
+            break
+        elif not serial_read or (expected_answers['OK'] not in serial_read \
                 and expected_answers['NOK'] not in serial_read):
             time.sleep(FF_DEFAULT['serial-interval'])
             continue
@@ -166,12 +175,6 @@ def process_serial_signal_response():
             stdout_msg('[ OK ]: FireFly lamp controller!')
             exit_code = 0
     return exit_code
-
-def action_help():
-    log.debug('')
-    exit(display_usage())
-
-# GENERAL
 
 #@pysnooper.snoop()
 def load_config_file():

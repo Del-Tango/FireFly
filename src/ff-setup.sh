@@ -83,11 +83,19 @@ function setup_project_dependencies () {
 function setup_manual_ctrl_menu_controller() {
     setup_manual_ctrl_menu_option_porcelain_signal
     setup_manual_ctrl_menu_option_plumbing_signal
+    setup_manual_ctrl_menu_option_setup_procedure
     setup_manual_ctrl_menu_option_help
     setup_manual_ctrl_menu_option_back
     done_msg "(${CYAN}$MANUALCTL_CONTROLLER_LABEL${RESET}) controller"\
         "option binding complete."
     return 0
+}
+
+function setup_manual_ctrl_menu_option_setup_procedure() {
+    setup_menu_controller_action_option \
+        "$MANUALCTL_CONTROLLER_LABEL" 'Setup-Procedure' \
+        'action_setup_procedure'
+    return $?
 }
 
 function setup_manual_ctrl_menu_option_porcelain_signal () {

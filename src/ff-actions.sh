@@ -4,6 +4,28 @@
 #
 # ACTIONS
 
+function action_setup_procedure() {
+    echo; info_msg "About to execute (${BLUE}${SCRIPT_NAME}${RESET}) setup procedure sketch... (${MAGENTA}${FF_PROCEDURES['setup']}${RESET})"
+    if [[ "${MD_DEFAULT['action-prompt']}" == 'on' ]]; then
+        fetch_ultimatum_from_user "Are you sure about this? ${YELLOW}Y/N${RESET}"
+        if [ $? -ne 0 ]; then
+            info_msg "Aborting action."
+            return 0
+        fi
+    fi
+    flowctrl_start "${FF_PROCEDURES['setup']}"
+    if [ $? -ne 0 ]; then
+        echo "[ WARNING ]: Purging previous FlowCtrl session..."
+        flowctrl_purge
+        if [ $? -ne 0 ]; then
+            warning_msg "Something went wrong! Could not purge previous FlowCtrl session!"
+            return 1
+        fi
+        flowctrl_start "${FF_PROCEDURES['setup']}"
+    fi
+    return $?
+}
+
 function action_plumbing_signal() {
     echo; info_msg "Issue plumbing signal to (${BLUE}${SCRIPT_NAME}${RESET}) LAMP controller or (${MAGENTA}.back${RESET})-"
     display_available_plumbing_signals

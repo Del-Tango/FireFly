@@ -1,10 +1,14 @@
+#!/usr/bin/python3
+#
+# Regards, the Alveare Solutions #!/Society -x
+#
+# ENSURANCE
+
 import logging
 
 from os import path, makedirs, mkfifo
 
-log = logging.getLogger('FlowCTRL')
-
-# ENSURANCE
+log = logging.getLogger('')
 
 
 def ensure_fifo_exists(*args):
@@ -12,7 +16,7 @@ def ensure_fifo_exists(*args):
     failures = 0
     for fifo_path in args:
         try:
-            mkfifo(fifo_path)
+            create = mkfifo(fifo_path)
         except OSError as e:
             log.error(e)
             failures += 1
@@ -32,7 +36,7 @@ def ensure_directories_exist(*args):
     failures = 0
     for dir_path in args:
         try:
-            makedirs(dir_path)
+            create = makedirs(dir_path)
         except OSError as e:
             log.error(e)
             failures += 1

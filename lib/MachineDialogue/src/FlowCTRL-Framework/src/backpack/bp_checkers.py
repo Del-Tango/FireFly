@@ -1,10 +1,19 @@
+#!/usr/bin/python3
+#
+# Regards, the Alveare Solutions #!/Society -x
+#
+# CHECKERS
+
 import os
 import stat
 import logging
 
-log = logging.getLogger('FlowCTRL')
+log = logging.getLogger('')
 
-# CHECKERS
+
+def check_superuser():
+    log.debug('')
+    return False if os.geteuid() != 0 else True
 
 
 def check_is_fifo(fifo_path):

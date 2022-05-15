@@ -1,0 +1,95 @@
+{
+    "Stage 1 - Setup system user": [
+        {
+            "name": "Create new user",
+            "time": "1m",
+            "cmd": "adduser --force-badname firefly &> /dev/null || exit 1",
+            "setup-cmd": "",
+            "teardown-cmd": "",
+            "on-ok-cmd": "",
+            "on-nok-cmd": "",
+            "fatal-nok": false,
+            "timeout": "5m"
+        },
+        {
+            "name": "Set user password",
+            "time": "1m",
+            "cmd": "passwd firefly 2> /dev/null || exit 1",
+            "setup-cmd": "echo '[ INFO ]: Please manually input system user password and press Enter - twice...'",
+            "teardown-cmd": "",
+            "on-ok-cmd": "",
+            "on-nok-cmd": "",
+            "fatal-nok": false,
+            "timeout": "5m"
+        },
+        {
+            "name": "Setup user HOME directory",
+            "time": "1m",
+            "cmd": "mkdir -p /home/firefly &> /dev/null || exit 1",
+            "setup-cmd": "",
+            "teardown-cmd": "",
+            "on-ok-cmd": "",
+            "on-nok-cmd": "",
+            "fatal-nok": false,
+            "timeout": "5m"
+        },
+        {
+            "name": "Setup user .bash_aliases file",
+            "time": "1m",
+            "cmd": "echo \"alias firefly='cd ~/FireFly && ./firefly && cd - &> /dev/null'\" >> /home/firefly/.bash_aliases || exit 1",
+            "setup-cmd": "",
+            "teardown-cmd": "",
+            "on-ok-cmd": "",
+            "on-nok-cmd": "",
+            "fatal-nok": false,
+            "timeout": "5m"
+        },
+        {
+            "name": "Setup user file permissions",
+            "time": "1m",
+            "cmd": "chmod -R 750 /home/firefly &> /dev/null || exit 1",
+            "setup-cmd": "",
+            "teardown-cmd": "",
+            "on-ok-cmd": "",
+            "on-nok-cmd": "",
+            "fatal-nok": false,
+            "timeout": "5m"
+        },
+        {
+            "name": "Setup user groups",
+            "time": "1m",
+            "cmd": "chown -R firefly /home/firefly &> /dev/null || exit 1; chgrp -R firefly /home/firefly &> /dev/null || exit 2",
+            "setup-cmd": "",
+            "teardown-cmd": "",
+            "on-ok-cmd": "",
+            "on-nok-cmd": "",
+            "fatal-nok": false,
+            "timeout": "5m"
+        }
+
+    ],
+    "Stage 2 - Export project": [
+        {
+            "name": "Export FireFly to /opt",
+            "time": "3m",
+            "cmd": "(cp -r /home/pi/FireFly /opt &> /dev/null || exit 1) && (chown -R firefly /opt/FireFly &> /dev/null || exit 2) && (chgrp -R firefly /opt/FireFly &> /dev/null || exit 3) && (chmod -R 770 /opt/FireFly &> /dev/null || exit 4)",
+            "setup-cmd": "",
+            "teardown-cmd": "",
+            "on-ok-cmd": "",
+            "on-nok-cmd": "",
+            "fatal-nok": false,
+            "timeout": "6m"
+        },
+        {
+            "name": "Export FireFly to /home/firefly",
+            "time": "3m",
+            "cmd": "cp -r /home/pi/FireFly /home/firefly &> /dev/null || exit 1",
+            "setup-cmd": "",
+            "teardown-cmd": "",
+            "on-ok-cmd": "",
+            "on-nok-cmd": "",
+            "fatal-nok": false,
+            "timeout": "6m"
+        }
+    ]
+}
