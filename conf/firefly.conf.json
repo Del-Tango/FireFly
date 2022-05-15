@@ -1,0 +1,33 @@
+{
+    "FF_SCRIPT_NAME":       "FireFly",
+    "FF_VERSION":           "Semaphore",
+    "FF_VERSION_NO":        "1.0",
+    "FF_DIRECTORY":         "/home/pi/FireFly",
+    "FF_DEFAULT": {
+        "project-path":     "/home/pi/FireFly",
+        "home-dir":         "/home",
+        "log-dir":          "/home/pi/FireFly/log",
+        "conf-dir":         "/home/pi/FireFly/conf",
+        "lib-dir":          "/home/pi/FireFly/lib",
+        "src-dir":          "/home/pi/FireFly/src",
+        "dox-dir":          "/home/pi/FireFly/dox",
+        "dta-dir":          "/home/pi/FireFly/data",
+        "tmp-dir":          "/tmp",
+        "log-file":         "firefly.log",
+        "conf-file":        "firefly.conf.json",
+        "log-format":       "[ %(asctime)s ] %(name)s [ %(levelname)s ] %(thread)s - %(filename)s - %(lineno)d: %(funcName)s - %(message)s",
+        "timestamp-format": "%d/%m/%Y-%H:%M:%S",
+        "debug":            true,
+        "silence":          false,
+        "serial-port":      "/dev/serial0",
+        "serial-reads":     3,
+        "serial-interval":  1,
+        "spl-prefix":       "SPLT",
+        "spl-ack-sig":      "ACK",
+        "spl-err-sig":      "ERR"
+    },
+    "FF_CARGO": {
+        "firefly":      "/home/pi/FireFly/src/firefly.py"
+    }
+}
+

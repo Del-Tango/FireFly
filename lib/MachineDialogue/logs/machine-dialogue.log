@@ -1,0 +1,586 @@
+Thu Jun 17 21:47:08 EEST 2021
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32m(G)ATE> [m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mgate-index - /home/pi/.ff-gate.index[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mMon May  9 03:35:11 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32m(G)ATE> [m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mgate-index - /home/pi/.ff-gate.index[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mMon May  9 03:36:08 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32m(G)ATE> [m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mgate-index - /home/pi/.ff-gate.index[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mMon May  9 03:36:19 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32m(G)ATE> [m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mgate-index - /home/pi/.ff-gate.index[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mMon May  9 03:54:23 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32m(G)ATE> [m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mgate-index - /home/pi/.ff-gate.index[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mMon May  9 04:01:22 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore [m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mMon May  9 04:44:46 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mMon May  9 04:44:47 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 06:01:44 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 06:01:44 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 06:01:44 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 06:01:44 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mSat May 14 06:01:45 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mSat May 14 06:02:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mSat May 14 06:03:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mSat May 14 06:03:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mSat May 14 09:00:35 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mSat May 14 10:01:36 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:03:54 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:03:54 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:03:54 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:03:54 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:03:54 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mSat May 14 10:03:54 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:03:54 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:03:54 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mSat May 14 10:03:55 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-essid - FireFlyService[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhostname-file - /etc/hostname[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mprocedure-dir - /home/del-tango/Projects/FireFly/data/procedures[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mcron-file - /var/spool/cron/crontabs/pi/firefly.cron[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwifi-pass - firefly[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashaliases-file - /home/pi/.bash_aliases[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbashrc-template - /home/del-tango/Projects/FireFly/data/.bashrc[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-id - FireFly01[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mboot-file - /etc/config.txt[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-user - pi[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msystem-perms - 755[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhome-dir - /home[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mhosts-file - /etc/hosts[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mwpa-file - /etc/wpa_supplicant/wpa_supplicant.conf[m).
+[35mSat May 14 10:38:17 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:39:59 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:42:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:44:34 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:46:09 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 10:52:02 AM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [34mMachineDialogue[m ]: [36mLocked and Loaded![m
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mMachineDialogue[m logging levels.
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded script name [32mFireFly[m
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded prompt string ([32mSemaphore> [m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-json-file - /home/del-tango/Projects/FireFly/conf/firefly.conf.json[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdox-dir - /home/del-tango/Projects/FireFly/dox[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-format - [[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtmp-dir - /tmp[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mconf-dir - /home/del-tango/Projects/FireFly/conf[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-lines - 100[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdebug - on[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-port - /dev/serial0[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mdta-dir - /home/del-tango/Projects/FireFly/data[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mmachine-ip - 127.0.0.1[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlib-dir - /home/del-tango/Projects/FireFly/lib[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mlog-dir - /home/del-tango/Projects/FireFly/log[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-prefix - SPLT[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mtimestamp-format - %d/%m/%Y-%H:%M:%S[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msilence - off[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32msrc-dir - /home/del-tango/Projects/FireFly/src[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mspl-ack-sig - ACK[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mserial-reads - 3[m).
+[35mSat May 14 09:04:01 PM EDT 2022[m - [ [32mOK[m ]: Successfully loaded [34mFireFly[m default setting ([32mbanner - cold-banner[m).

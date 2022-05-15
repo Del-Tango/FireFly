@@ -1,0 +1,65 @@
+#!/bin/bash
+#
+# Regards, the Alveare Solutions #!/Society -x
+#
+
+cat <<EOF
+________________________________________________________________________________
+
+  *                              *  Fire! Fly!!  *                           *
+_________________________________________________________v1.0Semaphore__________
+                   Regards, the Alveare Solutions #!/Society -x
+
+[ DESCRIPTION ]: FireFly - Remote Semaphore (light show) messaging system.
+                                      ______________________
+                                      | __________________ |
+[ DESIGN ]: I'm a fucking Artist!!    | |               _|_|____________
+              _______________________________________   |              |
+              | ___________________________________ |   | Reset Button |
+              | |                                 | |   |______________|
+              | |           TX        | |         | |
+              | |        ______       | |         | |    ___
+  ____________|_|__     /        _____|_|_        | |   |   |
+ |                 |____________|         |_______*_____| + |
+ |   Raspberry Pi  |____________| Arduino |____   |     |___|
+ |_________________|            |_________|   |   | |   |   |
+                        _____/     ||||       |_____*___| - |
+                         RX        ||||             |   |___|
+                                ___||||____       | |  5VDC 3A
+       ___                      | Relay   |_______| |   Power
+      |   |                     | Module  |_________|
+      | + |___________________  |_________|
+      |___|                  |     ||||||
+      |   |                  |_____||||||__________________________________
+      | - |_________________________||||______|                           |
+      |___|                          ||_______|   RGB LED Light           |
+     12VDC 3A                        |________|___________________________|
+      Power
+
+
+[ EXAMPLES ]: Serial instruction sets for Arduino_______________________________
+
+    # Change default solid color
+
+        SPLT:color@white;
+        SPLT:color@black;
+        SPLT:color@red;
+        SPLT:color@green;
+        SPLT:color@blue;
+
+    # Firefly power controlls
+
+        SPLT:power@on;
+        SPLT:power@off;
+
+    # Reset blink message queue to default solid color
+
+        SPLT:reset;
+
+    # Issue blink message instructions via CSV action lists
+
+        SPLT:white@3;
+        SPLT:black@4,red@1;
+        SPLT:white@3,green@3,blue@1;
+
+EOF

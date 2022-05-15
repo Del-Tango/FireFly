@@ -1,0 +1,69 @@
+#!/bin/bash
+#
+# Regards, the Alveare Solutions #!/Society -x
+#
+# FireFly
+
+declare -A FF_DEFAULT
+declare -A FF_LIB
+declare -A FF_SOURCE
+declare -A FF_CARGO
+declare -A FF_PROCEDURES
+
+# [ NOTE ]: Absolute directory path the current file is in.
+FF_DIRECTORY="$(
+    cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd
+)"
+CONF_FILE_PATH="$FF_DIRECTORY/conf/firefly.conf"
+
+if [ ! -f "$CONF_FILE_PATH" ]; then
+    echo "[ WARNING ]: Config file ($CONF_FILE_PATH) not found."
+    exit 1
+else
+    source "$CONF_FILE_PATH"
+fi
+
+for script in ${!FF_SOURCE[@]}; do
+    source ${FF_SOURCE[$script]}
+    if [ $? -ne 0 ] && [ ${#@} -eq 0 ]; then
+        echo "[ NOK ]: Something went wrong."\
+            "Could not load ($script) script."
+    elif [ ${#@} -eq 0 ]; then
+        echo "[ OK ]: Successfully loaded ($script) script."
+    fi
+done
+
+for library in ${!FF_LIB[@]}; do
+    source ${FF_LIB[$library]}
+    if [ $? -ne 0 ] && [ ${#@} -eq 0 ]; then
+        echo "[ NOK ]: Something went wrong."\
+            "Could not load ($library) library."
+    elif [ ${#@} -eq 0 ]; then
+        echo "[ OK ]: Successfully loaded ($library) library."
+    fi
+done
+
+# MISCELLANEOUS
+
+function init_firefly () {
+    if [ ${#@} -gt 0 ]; then
+        declare -A MD_DEFAULT
+        declare -A MD_CARGO
+        for setting_key in ${!FF_DEFAULT[@]}; do
+            MD_DEFAULT["${setting_key}"]="${FF_DEFAULT[${setting_key}]}"
+        done
+        for setting_key in ${!FF_CARGO[@]}; do
+            MD_CARGO["${setting_key}"]="${FF_CARGO[${setting_key}]}"
+        done
+        cli_update_config_json_file; process_cli_args $@
+        return $?
+    fi
+    project_setup; display_banners; init_menu 'MainController'
+    return $?
+}
+
+init_firefly $@
+exit $?
+
+# CODE DUMP
+
