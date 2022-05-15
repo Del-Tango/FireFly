@@ -4,6 +4,31 @@
 #
 # FORMATTERS
 
+function format_skeleton_chat_config_file_content() {
+    cat <<EOF
+USER_ALIAS="${MD_DEFAULT['sc-user-alias']}"
+SESSION="${MD_DEFAULT['sc-session']}"
+MESSAGE_FILE="${MD_DEFAULT['sc-msg-file']}"
+GETS_TO_CLEANUP="${MD_DEFAULT['sc-cleanup-flag']}"
+MSG_FILE_GROUPS="${MD_DEFAULT['sc-groups']}"
+MSG_FILE_PERMS=${MD_DEFAULT['sc-perms']}
+DTA_DIR='data'
+SRC_DIR='src'
+DOX_DIR='dox'
+SC_SESSION="src/skeleton-chat-tmux.sh"
+SC_WRITER="src/skeleton-chat-writer.sh"
+SC_READER="src/skeleton-chat-reader.sh"
+SESSION_FILE="data/.sklc-session"
+BASH_ALIASES="~/.bash_aliases"
+APT_DEPENDENCIES=(
+'tmux'
+'tail'
+'bash'
+'cut'
+)
+EOF
+}
+
 function format_low_level_serial_signal_cargo_arguments() {
     local SIGNAL="$@"
     local ARGUMENTS=(

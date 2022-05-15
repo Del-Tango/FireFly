@@ -77,15 +77,20 @@ function display_usage () {
     [ DESCRIPTION ]: ${FF_SCRIPT_NAME} Interface.
     [ USAGE       ]: $FILE_NAME
 
-    -h  | --help                   Display this message.
+    -h   | --help                   Display this message.
 
-    -pS | --plumbing-signal        Issue plumbing (low level) signal over a serial
-        |                          connection to LAMP controller. Uses fluffier
-        |                          instruction sets but runs less computations.
+    -pS= | --plumbing-signal=SIG    Issue plumbing (low level) signal over a serial
+         |                          connection to LAMP controller. Uses fluffier
+         |                          instruction sets but runs less computations.
 
-    -PS | --porcelain-signal       Issue porcelain (high level) signal over a serial
-        |                          connection to LAMP controller. More readable
-        |                          syntax but costs you time.
+    -PS= | --porcelain-signal=SIG   Issue porcelain (high level) signal over a serial
+         |                          connection to LAMP controller. More readable
+         |                          syntax but costs you time.
+
+    -sc  | --skeleton-chat          Opens a skeleton chat session (based on tmux,
+         |                          nest with caution!) using the config file
+         |                          generated from the Control Panel menu -
+         |                          (option Update-Conf-Chat)
 
     [ EXAMPLE     ]:
 
@@ -93,6 +98,7 @@ function display_usage () {
 
         $~ $FILE_NAME --porcelain-signal="set-power:on,blink-white:3,blink-red:4"
 
+        $~ $FILE_NAME --skeleton-chat
 EOF
     return $?
 }

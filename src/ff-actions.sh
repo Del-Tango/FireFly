@@ -4,6 +4,35 @@
 #
 # ACTIONS
 
+function action_update_skeleton_chat_config_file() {
+    local FILE_CONTENT="`format_skeleton_chat_config_file_content`"
+    debug_msg "Formatted SkeletonChat config file content: ${FILE_CONTENT}"
+    if [ $? -ne 0 ] || [ -z "$FILE_CONTENT" ]; then
+        echo; nok_msg 'Something went wrong -'\
+            'Could not format SkeletonChat config file content!'
+        return 0
+    fi
+    clear_file "${FF_DEFAULT['sklc-conf-file']}"
+    write_to_file "${FF_DEFAULT['sklc-conf-file']}" "$FILE_CONTENT"
+    local EXIT_CODE=$?
+    echo; if [ $EXIT_CODE -ne 0 ]; then
+        nok_msg "Something went wrong -"\
+            "Could not update SkeletonChat config file"\
+            "(${RED}${FF_DEFAULT['sklc-conf-file']}${RESET})"
+    else
+        echo "$FILE_CONTENT
+        "
+        ok_msg "Successfully updated SkeletonChat config file"\
+            "(${GREEN}${FF_DEFAULT['sklc-conf-file']}${RESET})."
+    fi
+    return $EXIT_CODE
+}
+
+function action_skeleton_chat() {
+    cd `dirname "${FF_CARGO['skeleton-chat']}"` && ${FF_CARGO['skeleton-chat']}; cd - &> /dev/null
+    return $?
+}
+
 function cli_action_plumbing_signal() {
     local SIGNAL="$@"
     local ARGUMENTS=( `format_low_level_serial_signal_cargo_arguments "${SIGNAL}"` )

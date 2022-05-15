@@ -30,6 +30,12 @@ function process_cli_args() {
                     local FAILURE_COUNT=$((FAILURE_COUNT + 1))
                 fi
                 ;;
+            -sc|--skeleton-chat)
+                action_skeleton_chat
+                if [ $? -ne 0 ]; then
+                    local FAILURE_COUNT=$((FAILURE_COUNT + 1))
+                fi
+                ;;
             *)
                 echo "[ WARNING ]: Invalid CLI arg! (${opt})"
                 ;;

@@ -83,12 +83,20 @@ function setup_project_dependencies () {
 function setup_manual_ctrl_menu_controller() {
     setup_manual_ctrl_menu_option_porcelain_signal
     setup_manual_ctrl_menu_option_plumbing_signal
+    setup_manual_ctrl_menu_option_skeleton_chat
     setup_manual_ctrl_menu_option_setup_procedure
     setup_manual_ctrl_menu_option_help
     setup_manual_ctrl_menu_option_back
     done_msg "(${CYAN}$MANUALCTL_CONTROLLER_LABEL${RESET}) controller"\
         "option binding complete."
     return 0
+}
+
+function setup_manual_ctrl_menu_option_skeleton_chat() {
+    setup_menu_controller_action_option \
+        "$MANUALCTL_CONTROLLER_LABEL" 'Skeleton-Chat' \
+        'action_skeleton_chat'
+    return $?
 }
 
 function setup_manual_ctrl_menu_option_setup_procedure() {
@@ -227,6 +235,13 @@ function setup_settings_menu_option_install_dependencies () {
     return $?
 }
 
+function setup_settings_menu_option_update_conf_chat() {
+    setup_menu_controller_action_option \
+        "$SETTINGS_CONTROLLER_LABEL" 'Update-Conf-Chat' \
+        'action_update_skeleton_chat_config_file'
+    return $?
+}
+
 function setup_settings_menu_option_back () {
     setup_menu_controller_action_option \
         "$SETTINGS_CONTROLLER_LABEL" 'Back' 'action_back'
@@ -237,6 +252,7 @@ function setup_settings_menu_controller () {
     setup_settings_menu_option_set_conf_file
     setup_settings_menu_option_set_conf_json
     setup_settings_menu_option_update_conf_json
+    setup_settings_menu_option_update_conf_chat
     setup_settings_menu_option_set_debug_flag
     setup_settings_menu_option_set_silent_flag
     setup_settings_menu_option_set_log_file

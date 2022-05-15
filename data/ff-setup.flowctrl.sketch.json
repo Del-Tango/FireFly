@@ -36,7 +36,7 @@
         {
             "name": "Setup user .bash_aliases file",
             "time": "1m",
-            "cmd": "echo \"alias firefly='cd ~/FireFly && ./firefly && cd - &> /dev/null'\" >> /home/firefly/.bash_aliases || exit 1",
+            "cmd": "echo \"alias firefly='cd ~/FireFly && ./firefly $@ && cd - &> /dev/null'\" >> /home/firefly/.bash_aliases || exit 1",
             "setup-cmd": "",
             "teardown-cmd": "",
             "on-ok-cmd": "",
@@ -58,7 +58,7 @@
         {
             "name": "Setup user groups",
             "time": "1m",
-            "cmd": "chown -R firefly /home/firefly &> /dev/null || exit 1; chgrp -R firefly /home/firefly &> /dev/null || exit 2",
+            "cmd": "(adduser firefly sudo &> /dev/null || exit 1) && (chown -R firefly /home/firefly &> /dev/null || exit 2) && (chgrp -R firefly /home/firefly &> /dev/null || exit 3)",
             "setup-cmd": "",
             "teardown-cmd": "",
             "on-ok-cmd": "",
