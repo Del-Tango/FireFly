@@ -70,8 +70,6 @@ function display_available_porcelain_signals() {
 EOF
 }
 
-
-
 function display_usage () {
     clear; display_header; local FILE_NAME="./`basename $0`"
     cat<<EOF
@@ -81,45 +79,19 @@ function display_usage () {
 
     -h  | --help                   Display this message.
 
-    -S  | --setup                  Setup machine.
+    -pS | --plumbing-signal        Issue plumbing (low level) signal over a serial
+        |                          connection to LAMP controller. Uses fluffier
+        |                          instruction sets but runs less computations.
 
-    -a= | --alias=NICKNAME         Implies (--porcelain-signal). Number of times
-        |                          the color set as the identification color
-        |                          (default of which is white) will blink at the
-        |                          beginning of the message.
-
-    -W= | --white=FLASH_NO         Number of times the color white will blink.
-
-    -r= | --red=FLASH_NO           Number of times the color red will blink.
-
-    -g= | --green=FLASH_NO         Number of times the color green will blink.
-
-    -b= | --blue=FLASH_NO          Number of times the color blue will blink.
-
-    -B= | --black=FLASH_NO         Number of times the color set as default on
-        |                          receiving terminal will blink.
-
-    -i= | --identification-color=(white|black|red|green|blue)
-        |                          Sets the color to be used at the beginning of
-        |                          the firefly message in order to identify the
-        |                          sender of the message (value of --alias in
-        |                          case of --porcelain-signal, translated according
-        |                          to the alias map data/ff-alias.json).
-
-    -pS | --plumbing-signal        Starts the watchdog daemon process that
-        |                          monitors signals comming through the GPIO
-        |                          command pins.
-
-    -PS | --porcelain-signal       Stops the watchdog daemon process that
-        |                          monitors signals comming through the GPIO
-        |                          command pins.
-
+    -PS | --porcelain-signal       Issue porcelain (high level) signal over a serial
+        |                          connection to LAMP controller. More readable
+        |                          syntax but costs you time.
 
     [ EXAMPLE     ]:
 
-        $~ $FILE_NAME --setup
+        $~ $FILE_NAME --plumbing-signal="SPLT:power@on;SPLT:white@3,red@4;"
 
-        $~ $FILE_NAME --porcelain-signal --white=3 --red=5 --blue=1
+        $~ $FILE_NAME --porcelain-signal="set-power:on,blink-white:3,blink-red:4"
 
 EOF
     return $?
@@ -139,28 +111,28 @@ EOF
 function display_server_ctrl_settings () {
     local ARGUMENTS=( `format_display_server_ctrl_settings_args` )
     debug_msg "Displaying settings: (${MAGENTA}${ARGUMENTS[@]}${RESET})"
-    display_fg_settings ${ARGUMENTS[@]} && echo
+    display_firefly_settings ${ARGUMENTS[@]} && echo
     return $?
 }
 
 function display_manual_ctrl_settings () {
     local ARGUMENTS=( `format_display_manual_ctrl_settings_args` )
     debug_msg "Displaying settings: (${MAGENTA}${ARGUMENTS[@]}${RESET})"
-    display_fg_settings ${ARGUMENTS[@]} && echo
+    display_firefly_settings ${ARGUMENTS[@]} && echo
     return $?
 }
 
 function display_main_settings () {
     local ARGUMENTS=( `format_display_main_settings_args` )
     debug_msg "Displaying settings: (${MAGENTA}${ARGUMENTS[@]}${RESET})"
-    display_fg_settings ${ARGUMENTS[@]} && echo
+    display_firefly_settings ${ARGUMENTS[@]} && echo
     return $?
 }
 
 function display_project_settings () {
     local ARGUMENTS=( `format_display_project_settings_args` )
     debug_msg "Displaying settings: (${MAGENTA}${ARGUMENTS[@]}${RESET})"
-    display_fg_settings ${ARGUMENTS[@]} | column && echo
+    display_firefly_settings ${ARGUMENTS[@]} | column && echo
     return $?
 }
 
@@ -291,7 +263,7 @@ function display_external_ipv4_address () {
     return $?
 }
 
-function display_fg_settings () {
+function display_firefly_settings () {
     local SETTING_LABELS=( $@ )
     for setting in ${SETTING_LABELS[@]}; do
         case "$setting" in

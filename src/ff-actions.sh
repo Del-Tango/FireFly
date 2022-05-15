@@ -4,6 +4,29 @@
 #
 # ACTIONS
 
+function cli_action_plumbing_signal() {
+    local SIGNAL="$@"
+    local ARGUMENTS=( `format_low_level_serial_signal_cargo_arguments "${SIGNAL}"` )
+    action_firefly_cargo ${ARGUMENTS[@]}
+    return $?
+}
+
+function cli_action_porcelain_signal() {
+    local SIGNAL="$@"
+    local ARGUMENTS=( `format_serial_signal_cargo_arguments "${SIGNAL}"` )
+    action_firefly_cargo ${ARGUMENTS[@]}
+    return $?
+}
+
+function cli_update_config_json_file() {
+    local FILE_CONTENT="`format_config_json_file_content`"
+    if [ $? -ne 0 ] || [ -z "$FILE_CONTENT" ]; then
+        return 1
+    fi
+    echo "${FILE_CONTENT}" > ${MD_DEFAULT['conf-json-file']}
+    return $?
+}
+
 function action_setup_procedure() {
     echo; info_msg "About to execute (${BLUE}${SCRIPT_NAME}${RESET}) setup procedure sketch... (${MAGENTA}${FF_PROCEDURES['setup']}${RESET})"
     if [[ "${MD_DEFAULT['action-prompt']}" == 'on' ]]; then

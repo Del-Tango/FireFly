@@ -164,7 +164,7 @@ def process_serial_signal_response():
             break
         elif not serial_read or (expected_answers['OK'] not in serial_read \
                 and expected_answers['NOK'] not in serial_read):
-            time.sleep(FF_DEFAULT['serial-interval'])
+            time.sleep(int(FF_DEFAULT['serial-interval']))
             continue
         elif expected_answers['NOK'] in serial_read:
             stdout_msg(
@@ -298,7 +298,16 @@ def display_usage():
 def create_command_line_parser():
     log.debug('')
     help_msg = format_header_string() + '''
-    [ EXAMPLE ]: Send instruction to FireFly lamp controller over serial -
+    [ EXAMPLE ]: Send plumbing (low level) instruction to FireFly LAMP controller over serial -
+
+        ~$ %prog \\
+            -a  | --action low-lvl-signal \\
+            -s  | --signal SPLT:power@on;SPLT:color@white;SPLT:white@3,red@4; \\
+            -q  | --silence \\
+            -c  | --config-file /etc/conf/firefly.conf.json \\
+            -l  | --log-file /etc/log/firefly.log
+
+    [ EXAMPLE ]: Send porcelain (high level) instruction to FireFly LAMP controller over serial -
 
         ~$ %prog \\
             -a  | --action serial-signal \\
@@ -438,11 +447,6 @@ def process_log_file_argument(parser, options):
 
 def add_command_line_parser_options(parser):
     log.debug('')
-    parser.add_option(
-        '-S', '--setup', dest='setup', action='store_true',
-        help='Setup current machine as a FireFly Unit - script designed '
-            'for the Raspberry Pi. Argument same as (--action=setup).'
-    )
     parser.add_option(
         '-q', '--silence', dest='silence', action='store_true',
         help='Eliminates all STDOUT messages.'
