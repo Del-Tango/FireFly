@@ -74,31 +74,54 @@ function display_usage () {
     clear; display_header; local FILE_NAME="./`basename $0`"
     cat<<EOF
 
-    [ DESCRIPTION ]: ${FF_SCRIPT_NAME} Interface.
-    [ USAGE       ]: $FILE_NAME
+    [ DESCRIPTION ]: ${FF_SCRIPT_NAME} Interface. A live, physical RGB Semaphore that you
+        and others can control over the internet with covert communication in
+        mind. You could think of it as a morse code light show :>
+
+        This interface to the ${FF_SCRIPT_NAME} system gives users control over the LAMP
+        module, composed of power circuits, arduino, 4 relays and a RGB LED band.
+
+    [ NOTE ]: Designed for and tested on RaspberryPi.
+
+    [ USAGE ]: $FILE_NAME
 
     -h   | --help                   Display this message.
 
-    -pS= | --plumbing-signal=SIG    Issue plumbing (low level) signal over a serial
-         |                          connection to LAMP controller. Uses fluffier
-         |                          instruction sets but runs less computations.
+    -pS= | --plumbing-signal=   SIG Issue plumbing (low level) signal over a
+         |                          serial connection to LAMP controller. Uses
+         |                          fluffier instruction sets but runs less
+         |                          computations.
 
-    -PS= | --porcelain-signal=SIG   Issue porcelain (high level) signal over a serial
-         |                          connection to LAMP controller. More readable
-         |                          syntax but costs you time.
+    -PS= | --porcelain-signal=  SIG Issue porcelain (high level) signal over a
+         |                          serial connection to LAMP controller. More
+         |                          readable syntax but costs you time.
 
     -sc  | --skeleton-chat          Opens a skeleton chat session (based on tmux,
          |                          nest with caution!) using the config file
          |                          generated from the Control Panel menu -
          |                          (option Update-Conf-Chat)
 
-    [ EXAMPLE     ]:
+    [ EXAMPLE ]: Send low level SPL instructions to LAMP controller. First is to
+        power on LAMP unit, and the second instructs the lamp to blink white 3
+        times, followed by red 4 times. This is considered to be a single message,
+        and the lamp will keep repeating it in it's place in the queue until a
+        reset signal is given:
 
-        $~ $FILE_NAME --plumbing-signal="SPLT:power@on;SPLT:white@3,red@4;"
+        ~$ $FILE_NAME --plumbing-signal="SPLT:power@on;SPLT:white@3,red@4;"
 
-        $~ $FILE_NAME --porcelain-signal="set-power:on,blink-white:3,blink-red:4"
+    [ EXAMPLE ]: Use human friendly format for SPL instruction:
 
-        $~ $FILE_NAME --skeleton-chat
+        ~$ $FILE_NAME --porcelain-signal="set-power:on,blink-white:3,blink-red:4"
+
+    [ EXAMPLE ]: Open up an instance of SkeletonChat in a tmux instance and
+        communicate with others that are logged in on the same machine using the
+        file system:
+
+        ~$ $FILE_NAME --skeleton-chat
+
+    [ EXAMPLE ]: Open up MachineDialogue interface:
+
+        ~$ $FILE_NAME
 EOF
     return $?
 }
@@ -107,9 +130,9 @@ function display_header () {
     cat <<EOF
     ___________________________________________________________________________
 
-     *                           *   ${BLUE}${FF_SCRIPT_NAME}${RESET}   *                          *
-    ___________________________________________________________________________
-                    Regards, the Alveare Solutions #!/Society -x
+     *                             *   ${BLUE}${FF_SCRIPT_NAME}${RESET}   *                           *
+    ____________________________________________________v.${FF_VERSION_NO}${FF_VERSION}_________
+               Excellent Regards, the Alveare Solutions #!/Society -x
 EOF
     return $?
 }

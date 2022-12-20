@@ -9,7 +9,7 @@ ________________________________________________________________________________
 
   *                              *  Fire! Fly!!  *                           *
 _________________________________________________________v1.0Semaphore__________
-                   Regards, the Alveare Solutions #!/Society -x
+             Excellence Regards, the Alveare Solutions #!/Society -x
 
 [ DESCRIPTION ]: FireFly - Remote Semaphore (light show) messaging system.
                                       ______________________
@@ -36,6 +36,18 @@ _________________________________________________________v1.0Semaphore__________
       |___|                          ||_______|   RGB LED Light           |
      12VDC 3A                        |________|___________________________|
       Power
+
+[ BOM ]: Bill of Materials
+
+    * 1x 5VDC 3A power source
+    * 1x 12VDC 1-3A power source
+    * 1x 4 relay module for Arduino
+    * 1x Arduino Nano
+    * 1x Raspberry Pi whatever
+    * 1x Reset Button
+    * 1x RGB LED band
+    * 8x thick power wires
+    * 11x thin logic circuit wires
 
 [ EXAMPLES ]: Low level (plumbing) serial instruction sets for Arduino__________
 
